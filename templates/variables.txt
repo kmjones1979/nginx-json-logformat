@@ -1,0 +1,118 @@
+VARIABLE                                            Module
+
+$ancient_browser                                    http_browser
+$arg_*                                              http_core
+$args                                               http_core
+$binary_remote_addr                                 http_core
+$body_bytes_sent                                    http_core
+$bytes_sent (ngx_http_core_module)                  http_core
+$connection (ngx_http_core_module)                  http_core
+$connection_requests (ngx_http_core_module)         http_core
+$connections_active                                 http_stub_status
+$connections_reading                                http_stub_status
+$connections_waiting                                http_stub_status
+$connections_writing                                http_stub_status
+$content_length                                     http_core
+$content_type                                       http_core
+$cookie_*                                           http_core
+$date_gmt                                           http_ssi
+$date_local                                         http_ssi
+$document_root                                      http_core
+$document_uri                                       http_core
+$fastcgi_path_info                                  http_fastcgi
+$fastcgi_script_name                                http_fastcgi
+$geoip_area_code                                    http_geoip
+$geoip_city                                         http_geoip
+$geoip_city_continent_code                          http_geoip
+$geoip_city_country_code                            http_geoip
+$geoip_city_country_code3                           http_geoip
+$geoip_city_country_name                            http_geoip
+$geoip_country_code                                 http_geoip
+$geoip_country_code3                                http_geoip
+$geoip_country_name                                 http_geoip
+$geoip_dma_code                                     http_geoip
+$geoip_latitude                                     http_geoip
+$geoip_longitude                                    http_geoip
+$geoip_org                                          http_geoip
+$geoip_postal_code                                  http_geoip
+$geoip_region                                       http_geoip
+$geoip_region_name                                  http_geoip
+$gzip_ratio                                         http_gzip
+$host                                               http_core
+$hostname                                           http_core
+$http2                                              http_v2
+$http_*                                             http_core
+$https                                              http_core
+$invalid_referer                                    http_referer
+$is_args                                            http_core
+$limit_rate                                         http_core
+$memcached_key                                      http_memcached
+$modern_browser                                     http_browser
+$msec (ngx_http_core_module)                        http_core
+$msie                                               http_browser
+$nginx_version                                      http_core
+$pid                                                http_core
+$pipe (ngx_http_core_module)                        http_core
+$proxy_add_x_forwarded_for                          http_proxy
+$proxy_host                                         http_proxy
+$proxy_port                                         http_proxy
+$proxy_protocol_addr                                http_core
+$query_string                                       http_core
+$realip_remote_addr                                 http_realip
+$realpath_root                                      http_core
+$remote_addr                                        http_core
+$remote_port                                        http_core
+$remote_user                                        http_core
+$request                                            http_core
+$request_body                                       http_core
+$request_body_file                                  http_core
+$request_completion                                 http_core
+$request_filename                                   http_core
+$request_length (ngx_http_core_module)              http_core
+$request_method                                     http_core
+$request_time (ngx_http_core_module)                http_core
+$request_uri                                        http_core
+$scheme                                             http_core
+$secure_link                                        http_secure_link
+$secure_link_expires                                http_secure_link
+$sent_http_*                                        http_core
+$server_addr                                        http_core
+$server_name                                        http_core
+$server_port                                        http_core
+$server_protocol                                    http_core
+$session_log_binary_id                              http_session_log
+$session_log_id                                     http_session_log
+$spdy                                               http_spdy
+$spdy_request_priority                              http_spdy
+$ssl_cipher                                         http_ssl
+$ssl_client_cert                                    http_ssl
+$ssl_client_fingerprint                             http_ssl
+$ssl_client_i_dn                                    http_ssl
+$ssl_client_raw_cert                                http_ssl
+$ssl_client_s_dn                                    http_ssl
+$ssl_client_serial                                  http_ssl
+$ssl_client_verify                                  http_ssl
+$ssl_protocol                                       http_ssl
+$ssl_server_name                                    http_ssl
+$ssl_session_id                                     http_ssl
+$ssl_session_reused                                 http_ssl
+$status (ngx_http_core_module)                      http_core
+$tcpinfo_rtt                                        http_core
+$tcpinfo_rttvar                                     http_core
+$tcpinfo_snd_cwnd                                   http_core
+$tcpinfo_rcv_space                                  http_core
+$time_iso8601 (ngx_http_core_module)                http_core
+$time_local (ngx_http_core_module)                  http_core
+$uid_got                                            http_userid
+$uid_reset                                          http_userid
+$uid_set                                            http_userid
+$upstream_addr                                      http_upstream
+$upstream_cache_status                              http_upstream
+$upstream_connect_time                              http_upstream
+$upstream_cookie_                                   http_upstream
+$upstream_header_time                               http_upstream
+$upstream_http_*                                    http_upstream
+$upstream_response_length                           http_upstream
+$upstream_response_time                             http_upstream
+$upstream_status                                    http_upstream
+$uri                                                http_core
